@@ -1,0 +1,24 @@
+.modal-vis {
+    position: fixed;
+    z-index : 2;
+    display: flex;
+    top : 0;
+    left: 20%;
+    opacity: 1;
+    width: 60%;
+    height: 100%;
+    color: aliceblue;
+}
+
+.shrink-it {
+    transform: scale(0.75);
+    -webkit-transform: scale(0.75);
+    transition: transform 0.2s .25s cubic-bezier(0,1,.3,1);
+    -webkit-transition: transform 0.2s .25s cubic-bezier(0,1,.3,1);
+    will-change: transform;
+}
+
+.normal {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+}
